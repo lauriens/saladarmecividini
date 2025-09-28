@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Home from './components/Home.vue'
 </script>
 
 <template>
@@ -7,17 +6,17 @@ import Home from './components/Home.vue'
     <img src="./assets/marcaHorizontalBranca.png" alt="Sala d'Arme Cividini Marca Horizontal"/>
   </header>
   <div class="menu-nav">
-    <a href="#">
+    <RouterLink to="/">
       A Escola
-    </a>
-    <a href="#">
+    </RouterLink>
+    <RouterLink to="/">
       Aulas
-    </a>
-    <a href="#">
+    </RouterLink>
+    <RouterLink to="/contato">
       Contato
-    </a>
+    </RouterLink>
   </div>
-  <Home msg="Vite + Vue" />
+  <RouterView />
 </template>
 
 <style scoped>
