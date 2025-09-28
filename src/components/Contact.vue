@@ -9,9 +9,9 @@
         <div class="options">
             <p> Whatsapp: (51) 99449-0014 </p>
             <div class="networks">
-                Instagram: <a  href="https://www.instagram.com/saladarmecividini/">@saladarmecividini</a> 
+                Instagram: <a href="https://www.instagram.com/saladarmecividini/">@saladarmecividini</a> 
             </div>
-            <p> Email: <a  href="mailto:contato@saladarmecividini.com.br">contato@saladarmecividini.com.br</a></p>
+            <p> Email: <a href="mailto:contato@saladarmecividini.com.br">contato@saladarmecividini.com.br</a></p>
         </div>
         
     </div>

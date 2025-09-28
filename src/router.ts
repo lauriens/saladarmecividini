@@ -1,11 +1,13 @@
 import { createMemoryHistory, createRouter } from 'vue-router'
 
-import HomeView from './components/Home.vue'
-import ContactView from './components/Contact.vue'
+import Home from './components/Home.vue'
+import Contact from './components/Contact.vue'
+import Classes from './components/Classes.vue'
 
 const routes = [
-  { path: '/', component: HomeView },
-  { path: '/contato', component: ContactView },
+  { path: '/', component: Home },
+  { path: '/contato', component: Contact },
+  { path: '/aulas', component: Classes }
 ]
 
 const router = createRouter({

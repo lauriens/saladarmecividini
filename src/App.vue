@@ -9,7 +9,7 @@
     <RouterLink to="/">
       A Escola
     </RouterLink>
-    <RouterLink to="/">
+    <RouterLink to="/aulas">
       Aulas
     </RouterLink>
     <RouterLink to="/contato">
