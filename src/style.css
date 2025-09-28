@@ -14,29 +14,35 @@
 }
 
 body {
-  margin: 0%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./assets/gabiDefesa.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .home {
   padding: 0.5rem;
+  align-self: center;
+  flex: 1 1 auto;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
 }
 
-.header {
-  background-color: black;
-  color: white;
+.header { 
+  flex: 0 1 auto;
+  color: black;
   display: flex;
   justify-content: center;
-  width: 100%;
+  
   img { overflow: overlay; }
-}
-
-.menu-nav {
-  background-color: black;
-  padding-bottom: 0.5rem;
-  display: flex;
-  justify-content: space-evenly;
-  a {
-    text-decoration: none;
-    color: white;
-  }
 }
