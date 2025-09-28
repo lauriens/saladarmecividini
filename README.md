@@ -1,5 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# Sala d'Arme Cividini HEMA Academy's Website
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Dev Laurien and Gabriel's (Sala d'Arme's main instructor and founder) girlfriend speaking :)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+I'm using the academy's website as a tool to practice my frontend skills, with a framework I've used before, but very little: VueJS.
+
+The academy itself is an Italian-tradition focused HEMA (Historical European Martial Arts) academy.
+
+In this repository, I've been playing with a couple of different layout styles (as I'm not a designer myself), and I'm "storing" them in different branches:
+
+main: the first one I coded, very simple black background, with a horizontal menu for different informative pages
+feature/pictures: style suggested by Gabriel, using pictures as backgrounds, in a more modern layout style
+feature/colors: suggested by our friend Pedro, as a joke, give the user the option of choosing a black, white or colorful background - TODO
